@@ -38,7 +38,7 @@ battery all {
         status_bat = "Discharging"
         status_unk = "? Unknown"
         status_full = "☻ FULL"
-        low_threshold = "10"
+        low_threshold = "25"
         threshold_type = "percentage"
 }
 
