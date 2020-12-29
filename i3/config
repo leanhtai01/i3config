@@ -180,3 +180,8 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Open programs
+bindsym Ctrl+Mod1+i exec chromium
+bindsym Ctrl+Mod1+e exec emacs
+bindsym Ctrl+Mod1+f exec nautilus
