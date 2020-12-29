@@ -189,6 +189,9 @@ bindsym Ctrl+Mod1+f exec krusader
 # Set wallpaper
 exec --no-startup-id feh --bg-fill ~/.config/i3/wallpapers/kali-linux.png
 
+# Lock screen
+bindsym Ctrl+Mod1+l exec i3lock && xset dpms force off
+
 # Configure for i3-gaps
 # gaps inner 20
 # gaps outer 5
