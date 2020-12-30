@@ -192,6 +192,10 @@ exec --no-startup-id feh --bg-fill ~/.config/i3/wallpapers/kali-linux.png
 # Lock screen
 bindsym Ctrl+Mod1+l exec i3lock && xset dpms force off
 
+# Brightness control
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10
+
 # Configure for i3-gaps
 # gaps inner 20
 # gaps outer 5
