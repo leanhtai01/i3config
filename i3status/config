@@ -52,7 +52,7 @@ tztime local {
 # }
 
 disk "/" {
-        format = "System Disk: %avail"
+        format = "System storage: %avail"
 }
 
 memory {
