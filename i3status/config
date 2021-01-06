@@ -56,7 +56,7 @@ disk "/" {
 }
 
 memory {
-       format = "RAM: %used / %total"
+       format = "MEM: %used / %total (%percentage_used)"
 }
 
 volume master {
