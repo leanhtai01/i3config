@@ -201,6 +201,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 10
 
 # Autostart programs
 exec_always --no-startup-id ibus-daemon -drx
+exec --no-startup-id goldendict
 
 # Configure for i3-gaps
 # gaps inner 20
