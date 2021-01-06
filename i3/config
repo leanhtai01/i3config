@@ -190,7 +190,7 @@ bindsym Ctrl+Mod1+f exec krusader
 exec --no-startup-id feh --bg-fill ~/.config/i3/wallpapers/kali-linux.png
 
 # Disable touchpad on startup
-exec --no-startup-id xinput disable 14
+exec --no-startup-id ~/.config/i3/disable_touchpad.sh
 
 # Lock screen
 bindsym Ctrl+Mod1+l exec i3lock && xset dpms force off
