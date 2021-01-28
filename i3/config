@@ -185,7 +185,6 @@ bar {
 bindsym Ctrl+Mod1+i exec firefox-developer-edition
 bindsym Ctrl+Mod1+e exec emacs
 bindsym Ctrl+Mod1+f exec krusader
-bindsym $mod+e exec nautilus
 bindsym Ctrl+Mod1+v exec gvim
 bindsym Ctrl+Mod1+t exec gnome-terminal
 
